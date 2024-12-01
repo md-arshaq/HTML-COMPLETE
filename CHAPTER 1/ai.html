@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f9;
+            padding: 20px;
+        }
+        .link-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .link-item {
+            text-decoration: none;
+            color: black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .link-item img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+        }
+        .link-item:hover {
+            transform: scale(1.1);
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <h1>Quick Links to Popular Websites</h1>
+    <div class="link-container">
+        <a href="https://www.google.com" class="link-item" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/512px-Google_2015_logo.svg.png" alt="Google Logo">
+            <span>Google</span>
+        </a>
+        <a href="https://www.youtube.com" class="link-item" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/YouTube_icon_%282013-2017%29.png/512px-YouTube_icon_%282013-2017%29.png" alt="YouTube Logo">
+            <span>YouTube</span>
+        </a>
+        <a href="https://www.facebook.com" class="link-item" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/512px-Facebook_icon.svg.png" alt="Facebook Logo">
+            <span>Facebook</span>
+        </a>
+        <a href="https://www.netflix.com" class="link-item" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Netflix_logo.svg/512px-Netflix_logo.svg.png" alt="Netflix Logo">
+            <span>Netflix</span>
+        </a>
+    </div>
+</body>
+</html>
